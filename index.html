@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>草鍋 喜多呂｜大阪・九条で味わう伝統の草鍋</title>
+  <meta name="description" content="大阪・九条の草鍋 喜多呂。野菜たっぷりの草鍋と一品料理を、落ち着いた空間でお楽しみいただけます。" />
+  <meta name="theme-color" content="#1f3328" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="草鍋 喜多呂｜大阪・九条で味わう伝統の草鍋" />
+  <meta property="og:description" content="大阪・九条の草鍋 喜多呂。野菜たっぷりの草鍋と一品料理を、落ち着いた空間で。" />
+  <meta property="og:image" content="images/hero.webp" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="loading" id="loading">
+    <div class="loading__inner">
+      <p class="loading__logo">草鍋 喜多呂</p>
+      <span class="loading__line"></span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">草鍋 喜多呂</a>
+
+      <nav class="header__nav" aria-label="メインナビゲーション">
+        <ul>
+          <li><a href="#concept">こだわり</a></li>
+          <li><a href="#menu">お料理</a></li>
+          <li><a href="#gallery">写真</a></li>
+          <li><a href="#reviews">口コミ</a></li>
+          <li><a href="#access">アクセス</a></li>
+        </ul>
+      </nav>
+
+      <a href="tel:0665841955" class="header__reserve">電話予約</a>
+
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-controls="drawer" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="drawer" id="drawer" aria-label="スマートフォンナビゲーション">
+      <a href="#concept">こだわり</a>
+      <a href="#menu">お料理</a>
+      <a href="#gallery">写真</a>
+      <a href="#reviews">口コミ</a>
+      <a href="#access">アクセス</a>
+      <a href="tel:0665841955" class="drawer__tel">電話予約する</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <picture>
+        <source srcset="images/hero.webp" type="image/webp" />
+        <img src="images/hero.jpg" alt="草鍋と料理が並ぶテーブル" class="hero__image" />
+      </picture>
+
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <p class="hero__label">大阪・九条 / 草鍋・居酒屋</p>
+        <h1>受け継がれる、<br />伝統の草鍋。</h1>
+        <p class="hero__text">
+          野菜の旨みをたっぷり味わう名物の草鍋。<br />
+          仕事帰りの一杯から、大切な人とのお食事まで。
+        </p>
+
+        <div class="hero__buttons">
+          <a href="#menu" class="button button--primary">お料理を見る</a>
+          <a href="#access" class="button button--outline">アクセスを見る</a>
+        </div>
+      </div>
+
+      <div class="scroll-sign" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="concept section" id="concept">
+      <div class="container concept__grid">
+        <div class="concept__image fade-up">
+          <img src="images/concept.webp" alt="落ち着いた雰囲気の店内" loading="lazy" />
+        </div>
+
+        <div class="concept__body fade-up">
+          <p class="section__label">Concept</p>
+          <h2 class="section__title">懐かしくて、<br />また食べたくなる味。</h2>
+          <p>
+            草鍋 喜多呂は、大阪・九条で親しまれる草鍋のお店です。
+            たっぷりの野菜と出汁の旨みを楽しめる鍋料理を中心に、
+            一品料理やお酒もご用意しています。
+          </p>
+          <p>
+            気取らず、ゆっくり過ごせる空間で、
+            ご家族・ご友人・お仕事帰りのお食事にご利用ください。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="section__label">Feature</p>
+          <h2 class="section__title">喜多呂のこだわり</h2>
+        </div>
+
+        <div class="features__grid">
+          <article class="feature-card fade-up">
+            <span class="feature-card__icon">🍃</span>
+            <h3>野菜たっぷり</h3>
+            <p>名物の草鍋は、野菜の食感と旨みをしっかり楽しめる一品です。</p>
+          </article>
+
+          <article class="feature-card fade-up">
+            <span class="feature-card__icon">🍲</span>
+            <h3>出汁の旨み</h3>
+            <p>シンプルだからこそ、また食べたくなる優しい味わいを大切にしています。</p>
+          </article>
+
+          <article class="feature-card fade-up">
+            <span class="feature-card__icon">🏮</span>
+            <h3>落ち着く店内</h3>
+            <p>昔ながらの温かさを感じる店内で、ゆったりとお食事を楽しめます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="section__label">Menu</p>
+          <h2 class="section__title">おすすめのお料理</h2>
+        </div>
+
+        <div class="menu__grid">
+          <article class="menu-card fade-up">
+            <div class="menu-card__image">
+              <img src="images/menu01.webp" alt="草鍋" loading="lazy" />
+              <span class="menu-card__badge">名物</span>
+            </div>
+            <div class="menu-card__body">
+              <h3>草鍋</h3>
+              <p>たっぷり野菜を味わう、喜多呂の看板料理。</p>
+              <span class="menu-card__price">店舗にてご確認ください</span>
+            </div>
+          </article>
+
+          <article class="menu-card fade-up">
+            <div class="menu-card__image">
+              <img src="images/menu02.webp" alt="エビマヨ" loading="lazy" />
+            </div>
+            <div class="menu-card__body">
+              <h3>エビマヨ</h3>
+              <p>食欲をそそる濃厚な味わいの人気一品料理。</p>
+              <span class="menu-card__price">店舗にてご確認ください</span>
+            </div>
+          </article>
+
+          <article class="menu-card fade-up">
+            <div class="menu-card__image">
+              <img src="images/menu03.webp" alt="小籠包" loading="lazy" />
+            </div>
+            <div class="menu-card__body">
+              <h3>小籠包</h3>
+              <p>温かい湯気とともに楽しむ、満足感のある一品。</p>
+              <span class="menu-card__price">店舗にてご確認ください</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="section__label">Gallery</p>
+          <h2 class="section__title">写真で見る喜多呂</h2>
+        </div>
+
+        <div class="gallery__grid">
+          <button class="gallery__item fade-up" data-lightbox="images/gallery01.webp">
+            <img src="images/gallery01.webp" alt="外観" loading="lazy" />
+          </button>
+          <button class="gallery__item fade-up" data-lightbox="images/gallery02.webp">
+            <img src="images/gallery02.webp" alt="草鍋アップ" loading="lazy" />
+          </button>
+          <button class="gallery__item fade-up" data-lightbox="images/gallery03.webp">
+            <img src="images/gallery03.webp" alt="店内" loading="lazy" />
+          </button>
+          <button class="gallery__item fade-up" data-lightbox="images/gallery04.webp">
+            <img src="images/gallery04.webp" alt="料理" loading="lazy" />
+          </button>
+          <button class="gallery__item fade-up" data-lightbox="images/gallery05.webp">
+            <img src="images/gallery05.webp" alt="エビマヨ" loading="lazy" />
+          </button>
+          <button class="gallery__item fade-up" data-lightbox="images/gallery06.webp">
+            <img src="images/gallery06.webp" alt="小籠包" loading="lazy" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="section__label">Reviews</p>
+          <h2 class="section__title">お客様の声</h2>
+        </div>
+
+        <div class="reviews__grid">
+          <article class="review-card fade-up">
+            <div class="review-card__stars">★★★★★</div>
+            <p>野菜がたっぷりで、出汁まで美味しくいただけました。</p>
+          </article>
+
+          <article class="review-card fade-up">
+            <div class="review-card__stars">★★★★★</div>
+            <p>昔ながらの雰囲気で、落ち着いて食事ができるお店です。</p>
+          </article>
+
+          <article class="review-card fade-up">
+            <div class="review-card__stars">★★★★★</div>
+            <p>草鍋が印象的で、また行きたくなる味でした。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="access section" id="access">
+      <div class="container access__grid">
+        <div class="access__body fade-up">
+          <p class="section__label">Access</p>
+          <h2 class="section__title">店舗情報</h2>
+
+          <dl class="shop-info">
+            <div>
+              <dt>店名</dt>
+              <dd>草鍋 喜多呂</dd>
+            </div>
+            <div>
+              <dt>住所</dt>
+              <dd>大阪府大阪市西区九条周辺</dd>
+            </div>
+            <div>
+              <dt>営業時間</dt>
+              <dd>16:00〜23:00</dd>
+            </div>
+            <div>
+              <dt>電話番号</dt>
+              <dd><a href="tel:0665841955">06-6584-1955</a></dd>
+            </div>
+          </dl>
+
+          <a href="tel:0665841955" class="button button--primary">電話で予約する</a>
+        </div>
+
+        <div class="access__map fade-up">
+          <iframe
+            title="草鍋 喜多呂 Google Map"
+            src="https://www.google.com/maps?q=34.6743567,135.4762906&z=17&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta__inner fade-up">
+        <p class="section__label">Reservation</p>
+        <h2>草鍋を囲む、あたたかな時間を。</h2>
+        <p>ご予約・お問い合わせはお電話にて承っております。</p>
+        <a href="tel:0665841955" class="button button--primary">06-6584-1955</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__logo">草鍋 喜多呂</p>
+        <p>大阪・九条で味わう、野菜たっぷりの草鍋。</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#concept">こだわり</a>
+        <a href="#menu">お料理</a>
+        <a href="#gallery">写真</a>
+        <a href="#access">アクセス</a>
+      </div>
+    </div>
+
+    <p class="footer__copy">© Kusanabe Kitaro Demo Site.</p>
+  </footer>
+
+  <a href="tel:0665841955" class="fixed-tel">電話予約</a>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="画像を閉じる">×</button>
+    <img src="" alt="" id="lightboxImage" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
